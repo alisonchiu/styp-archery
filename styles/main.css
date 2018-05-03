@@ -96,3 +96,38 @@ p {
     border-radius: 0px;
     font-family: 'Karla', sans-serif;
 }
+
+.navbar-custom {
+    background-color: #ffffff;
+}
+
+.jumbotron {
+	margin-top: 2vh;
+	background: url("../images/class1.jpg") 
+							center center no-repeat;
+	background-size: cover;
+	height: 400px;
+	width: auto;
+	margin-bottom: 7vh;
+}
+
+footer {
+	padding-top: 15vh;
+}
+
+/* change the brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: #232e27;
+}
+
+/* change the link color */
+.navbar-custom .navbar-nav .nav-link {
+    color: #232e27;
+}
+
+/* change the color of active or hovered links */
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+    color: #bbbbbb;
+}
